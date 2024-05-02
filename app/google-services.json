@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "621528931147",
+    "project_id": "proyectofinalbd-6ff86",
+    "storage_bucket": "proyectofinalbd-6ff86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621528931147:android:711075aa62696a36f266ce",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.potros.proyectofinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa7-GmbYzIQhamhJQI3Mw1Uf0gu2j_Xyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

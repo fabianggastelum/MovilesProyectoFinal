@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="background_image">Imagen de fondo</string>
+    <string name="no_account">No tienes una cuenta?</string>
+    <string name="register_prompt">Regístrate</string>
+    <string name="register">Registrarse</string>
+    <string name="welcome_text">¡Bienvenido a Vamos con Martin!</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Repite la contraseña</string>
+    <string name="platillos">Platillos</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="postres">Postres</string>
+    <string name="camarones">Camarones Momia</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="descripcion_camarones">Rellenos de queso, envueltos en tocino.</string>
+    <string name="taco_pulpo">Taco adobado de pulpo</string>
+    <string name="descripcion_tacoPulpo">Acompañado de ensalada</string>
+    <string name="agregar_orden">Agregar a la orden</string>
+    <string name="ultra">Cerveza Ultra</string>
+    <string name="pacifico">Cerveza pacífico suave</string>
+    <string name="pastel_chocolate">Pastel de chocolate</string>
+    <string name="helado_chalco">Helado chalco</string>
+    <string name="detalles_orden">Detalles de la orden</string>
+    <string name="personal">Órden personal</string>
+    <string name="mesa">Órden de mesa</string>
+</resources>
