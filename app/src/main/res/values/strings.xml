@@ -25,4 +25,6 @@
     <string name="detalles_orden">Detalles de la orden</string>
     <string name="personal">Órden personal</string>
     <string name="mesa">Órden de mesa</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="precio_del_producto">Precio del producto</string>
 </resources>

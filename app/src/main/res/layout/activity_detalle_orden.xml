@@ -37,7 +37,7 @@
             >
 
             <androidx.recyclerview.widget.RecyclerView
-                id="@+id/rvOrden"
+                android:id="@+id/rvOrden"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </RadioGroup>
