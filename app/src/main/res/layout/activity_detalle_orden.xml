@@ -43,10 +43,10 @@
         </RadioGroup>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/confirmarOrden"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Confirmar órden"
+            android:text="@string/confirmar_orden"
             android:layout_gravity="center"
             android:textColor="@color/black"
             android:textSize="18sp"
@@ -55,6 +55,29 @@
             android:layout_marginTop="30dp"
             android:layout_marginBottom="6dp"
             />
+
+        <Button
+            android:id="@+id/agregarProductos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/añadir_productos"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="28dp"
+            android:layout_marginBottom="6dp" />
+        <Button
+            android:id="@+id/cancelarOrden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar_orden"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="58dp"
+            android:layout_marginBottom="6dp" />
 
     </LinearLayout>
 

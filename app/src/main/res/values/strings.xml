@@ -27,4 +27,7 @@
     <string name="mesa">Órden de mesa</string>
     <string name="nombre_del_producto">Nombre del producto</string>
     <string name="precio_del_producto">Precio del producto</string>
+    <string name="confirmar_orden">Confirmar órden</string>
+    <string name="añadir_productos">Añadir más productos</string>
+    <string name="cancelar_orden">Cancelar órden</string>
 </resources>

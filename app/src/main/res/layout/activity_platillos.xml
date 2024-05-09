@@ -61,7 +61,7 @@
         />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/platillo1"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
@@ -101,11 +101,11 @@
         android:layout_gravity="center"
         android:layout_marginBottom="6dp"
         android:textStyle="bold"
-        android:text="$250.00"
+        android:text="$150.00"
         />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/platillo2"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:layout_height="wrap_content"

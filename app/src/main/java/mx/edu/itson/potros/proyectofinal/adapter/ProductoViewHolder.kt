@@ -16,7 +16,7 @@ class ProductoViewHolder(view: View): RecyclerView.ViewHolder(view){
 
     fun render(productoModel: Producto){
         nombreProducto.text = productoModel.nombre
-        precioProducto.text = productoModel.precio.toString()
+        precioProducto.text = productoModel.precio.toString() + " MXN"
         cantidadProducto.hint = productoModel.cantidad.toString()
 
     }

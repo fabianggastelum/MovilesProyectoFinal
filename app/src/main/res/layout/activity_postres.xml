@@ -54,7 +54,7 @@
             />
 
         <EditText
-            android:id="@+id/editTextNumber2"
+            android:id="@+id/postre1"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
             />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/postre2"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
