@@ -17,6 +17,7 @@ class Menu : AppCompatActivity() {
         val btnPlatillos = findViewById<Button>(R.id.btnPlatillos)
         val btnBebidas = findViewById<Button>(R.id.btnBebidas)
         val btnPostres = findViewById<Button>(R.id.btnPostres)
+        val btnPedidos = findViewById<Button>(R.id.btnPedidos)
 
         btnPlatillos.setOnClickListener {
             startActivity(Intent(this, Platillos::class.java))
@@ -28,6 +29,10 @@ class Menu : AppCompatActivity() {
 
         btnPostres.setOnClickListener {
             startActivity(Intent(this, Postres::class.java))
+        }
+
+        btnPedidos.setOnClickListener {
+            startActivity(Intent(this, Pedidos::class.java))
         }
 
     }

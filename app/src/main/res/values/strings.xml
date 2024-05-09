@@ -30,4 +30,7 @@
     <string name="confirmar_orden">Confirmar órden</string>
     <string name="añadir_productos">Añadir más productos</string>
     <string name="cancelar_orden">Cancelar órden</string>
+    <string name="mis_pedidos">Mis pedidos</string>
+    <string name="tus_pedidos">Tu pedido</string>
+    <string name="total">Total: $0.00</string>
 </resources>

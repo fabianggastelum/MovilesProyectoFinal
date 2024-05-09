@@ -15,9 +15,9 @@ class ProductoViewHolder(view: View): RecyclerView.ViewHolder(view){
     val cantidadProducto = view.findViewById<EditText>(R.id.eTCantidadProducto)
 
     fun render(productoModel: Producto){
-        nombreProducto.text = productoModel.nombre
-        precioProducto.text = productoModel.precio.toString() + " MXN"
-        cantidadProducto.hint = productoModel.cantidad.toString()
+        nombreProducto.text = productoModel.Nombre
+        precioProducto.text = productoModel.Precio.toString() + " MXN"
+        cantidadProducto.hint = productoModel.Cantidad.toString()
 
     }
 }

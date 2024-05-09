@@ -45,7 +45,7 @@ class Platillos : AppCompatActivity() {
             if(cantidadPlatillo2.text.toString().isNotEmpty()
             ) {
                 val cantidad = cantidadPlatillo2.text.toString().toInt()
-                ProductoProvider.productoList.add(Producto("Tacos de pescado",
+                ProductoProvider.productoList.add(Producto("Tacos de pulpo",
                     150.0 * cantidad, cantidad))
 
                 startActivity(Intent(this, DetalleOrden::class.java))

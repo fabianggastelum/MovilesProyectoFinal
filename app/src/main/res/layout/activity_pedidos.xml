@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetalleOrden">
+    tools:context=".Pedidos">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/detalles_orden"
+            android:text="@string/tus_pedidos"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -33,7 +33,8 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvOrden"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            />
 
         <RadioGroup
             android:id="@+id/rgTipoOrden"
@@ -46,11 +47,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/personal"
                 android:textSize="18sp"
-                android:gravity="center"
                 android:layout_gravity="center"
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="10dp"
+                android:enabled="false"
+
                 />
             <RadioButton
                 android:id="@+id/rbMesa"
@@ -58,50 +60,25 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mesa"
                 android:textSize="18sp"
-                android:gravity="center"
                 android:layout_gravity="center"
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="10dp"
+                android:enabled="false"
                 />
         </RadioGroup>
 
-        <Button
-            android:id="@+id/confirmarOrden"
+        <TextView
+            android:id="@+id/tvTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/confirmar_orden"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
+            android:text="@string/total"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:paddingHorizontal="50dp"
-            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="6dp"
             />
-
-        <Button
-            android:id="@+id/agregarProductos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/añadir_productos"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:paddingHorizontal="28dp"
-            android:layout_marginBottom="6dp" />
-        <Button
-            android:id="@+id/cancelarOrden"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/cancelar_orden"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:paddingHorizontal="58dp"
-            android:layout_marginBottom="6dp" />
 
     </LinearLayout>
 

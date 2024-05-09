@@ -62,7 +62,20 @@
             android:textColor="@color/black"
             android:textStyle="bold"
             />
+        <Button
+            android:id="@+id/btnPedidos"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/mis_pedidos"
+            app:cornerRadius="0dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navy_blue"
+            android:layout_marginTop="80dp"
+            />
+
 
     </GridLayout>
+
+
 
 </LinearLayout>
